@@ -27,10 +27,47 @@ h1 {
     border: 2px solid black;
     padding: 2px;
 }
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+.about .bio {
+    font-style: italic;
+    color: #777;
+}
 .repo-element {
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.repo-element a {
+    font-size: larger;
+}
+.repo-element p {
+    font-size: medium;
+    color: #777;
+    margin: 0.5rem 0;
+}
+.topic-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.topic-element {
+    color: white;
+    background: #007bff;
+    border-radius: 5px;
+    padding: .5rem;
 }
 hr {
     height: 3px;
@@ -43,3 +80,79 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.navbar-search {
+    width: calc(100% + 10rem);
+    background-color: #007bff;
+    margin: 0 -5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1.2rem 5rem;
+}
+.navbar-search form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+.navbar-search form .search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.search-form input {
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.search-form button {
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#form-error {
+    color: red;
+}
+.error-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-div #error {
+    color: red;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    display: none;
+    justify-self: center;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .hidden {
+    display: none;
+  }
