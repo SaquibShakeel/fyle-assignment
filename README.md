@@ -1,8 +1,8 @@
-## Fyle Web Development Internship - Github Repository Viewer
+# Fyle Web Development Internship - Github Repository Viewer
 
 This project is a web application designed to display the public Github repositories belonging to any specific user. The main goal is to create a user-friendly interface that retrieves and displays repository information from the Github API.
 
-# Requirements
+## Requirements
 
 1. **API Documentation**: The application uses the Github REST API to fetch repository data.
 2. **Repository Topics Representation**: The application represents the topic of a particular repository. Keep in mind that one repository could have multiple topics.
@@ -10,7 +10,7 @@ This project is a web application designed to display the public Github reposito
 4. **Loaders for API Calls**: To enhance the user experience, loaders are displayed while API calls are in progress.
 5. **Optional**: The application optionally provides a search bar to allow users to search any valid github profile.
 
-# Technologies Used
+## Technologies Used
 
 1. HTML, CSS, JavaScript: The core technologies for building the web application.
 2. Bootstrap: Used for styling and responsive design.
@@ -20,7 +20,7 @@ This project is a web application designed to display the public Github reposito
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/github-repo-viewer.git
+git clone https://github.com/SaquibShakeel/fyle-assignment.git
 ```
 2. Open the index.html file in your preferred web browser.
 2. Explore the Github repositories by entering a valid Github username.
@@ -28,5 +28,5 @@ git clone https://github.com/your-username/github-repo-viewer.git
 
 ## Deployement
 
-Hosted at 
+Hosted at https://saquibshakeel.github.io/fyle-assignment/
 
