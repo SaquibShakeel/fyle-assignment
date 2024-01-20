@@ -85,6 +85,7 @@ const createPagination = () => {
   linkButtonNext.className = `page-link`;
   linkButtonNext.textContent = "Next";
   nextButton.addEventListener("click", function (e) {
+    e.preventDefault();
     if (currentPage < page) {
       if(currentPage%10 === 0 && windowStart + 10 < page) {
         windowStart += 10;

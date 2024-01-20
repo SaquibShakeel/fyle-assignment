@@ -28,5 +28,5 @@ git clone https://github.com/SaquibShakeel/fyle-assignment.git
 
 ## Deployement
 
-Hosted at https://saquibshakeel.github.io/fyle-assignment/
+Hosted at https://fyle-assignment-one.vercel.app/
 
